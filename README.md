@@ -1,2 +1,49 @@
 # open_newtab
+
 Wrapper for macOS's open command to open folder in new tab of Finder instead of new window.
+
+## Installation
+
+On Mac, you can install scripts by [Homebrew](https://github.com/mxcl/homebrew):
+
+    $ brew tap rcmdnk/rcmdnkpac/open_newtab
+
+If you have [brew-file](https://github.com/rcmdnk/homebrew-file), add following lines to Brewfile:
+
+    tap 'rcmdnk/rcmdnkpac'
+    brew 'open_newtab'
+
+then, do:
+
+    $ brew file install
+
+Or if you write like:
+
+    tapall 'rcmdnk/rcmdnkpac'
+
+and do `brew file install`, you will have all useful scripts in
+[rcmdnkpac](https://github.com/rcmdnk/homebrew-rcmdnkpac).
+
+You can also use an install script on the web like:
+
+    $ curl -fsSL https://raw.github.com/rcmdnk/open_newtab/install/install.sh| sh
+
+This will install scripts to `/usr/local/bin`
+and you may be asked root password.
+
+If you want to install other directory, do like:
+
+    $ curl -fsSL https://raw.github.com/rcmdnk/open_newtab/install/install.sh|  prefix=~/usr/local/ sh
+
+Or, simply download the script and set where you like.
+
+## Usage
+
+`open_newtab` is wrapper script for `open` command
+and the usage is exactly same as `open`.
+
+To make it easy, use `alias`:
+
+    alias open=open_newtab
+
+in your **.bashrc** or **.zshrc**.
