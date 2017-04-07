@@ -2,6 +2,18 @@
 
 Wrapper for macOS's open command to open folder in new tab of Finder instead of new window.
 
+## Note!
+
+After macOS Sierra, you don't need this script to open with new tab.
+
+In Sierra, you can find
+**Prefer tabs when opening documents** setting
+in **Dock** of **System Preferences**.
+
+To open in new tab, set it **Always**.
+
+> [macOS Sierra: Open folders in new Finder tabs or windows](https://support.apple.com/kb/PH25244)
+
 ## Installation
 
 On Mac, you can install scripts by [Homebrew](https://github.com/mxcl/homebrew):
