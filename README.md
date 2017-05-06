@@ -36,17 +36,6 @@ Or if you write like:
 and do `brew file install`, you will have all useful scripts in
 [rcmdnkpac](https://github.com/rcmdnk/homebrew-rcmdnkpac).
 
-You can also use an install script on the web like:
-
-    $ curl -fsSL https://raw.github.com/rcmdnk/open_newtab/install/install.sh| sh
-
-This will install scripts to `/usr/local/bin`
-and you may be asked root password.
-
-If you want to install other directory, do like:
-
-    $ curl -fsSL https://raw.github.com/rcmdnk/open_newtab/install/install.sh|  prefix=~/usr/local/ sh
-
 Or, simply download the script and set where you like.
 
 ## Usage
